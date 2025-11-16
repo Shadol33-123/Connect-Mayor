@@ -1,0 +1,1 @@
+import{j as e}from"./index-DNQbeVAn.js";function t(){return e.jsxs("div",{className:"p-10 text-center",children:[e.jsx("h1",{className:"text-3xl font-bold mb-4",children:"404"}),e.jsx("p",{className:"text-slate-600 mb-6",children:"La página que buscas no existe."}),e.jsx("a",{href:"/",className:"text-blue-700 underline",children:"Volver al inicio"})]})}export{t as default};

@@ -1,0 +1,1 @@
+import{j as t}from"./index-DNQbeVAn.js";function e({children:s,className:a}){return t.jsx("div",{className:"rounded-xl border bg-white shadow-sm p-5 hover:shadow-md transition "+(a||""),children:s})}function o({children:s}){return t.jsx("p",{className:"text-xs text-slate-600",children:s})}export{e as C,o as a};

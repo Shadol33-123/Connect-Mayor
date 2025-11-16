@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-slate-50 text-slate-800; }
+
+/* Dialog backdrop blur */
+.dialog-backdrop {
+  backdrop-filter: blur(4px);
+}
+
+/* Profile editor animations */
+.profile-editor-enter {
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+.profile-editor-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 200ms ease-out, transform 200ms ease-out;
+}
+
+/* Dashboard banner: extender gradiente a todo el ancho y remover márgenes laterales visuales */
+/* Full bleed utility: un container hijo que extiende el fondo a todo el viewport horizontal */
+.full-bleed {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+}
+
+.full-bleed::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.15), transparent 70%);
+  pointer-events: none;
+}

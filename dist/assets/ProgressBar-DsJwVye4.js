@@ -1,0 +1,1 @@
+import{j as r}from"./index-DNQbeVAn.js";function o({value:e,className:t}){const s=Math.min(100,Math.max(0,e));return r.jsx("div",{className:"h-3 bg-slate-200 rounded-xl overflow-hidden "+(t||""),children:r.jsx("div",{className:"h-full bg-gradient-to-r from-brand-green to-brand-yellow",style:{width:s+"%"}})})}export{o as P};
